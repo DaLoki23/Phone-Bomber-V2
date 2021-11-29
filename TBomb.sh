@@ -29,7 +29,7 @@ banner() {
     if ! [ -x "$(command -v figlet)" ]; then
         echo 'Introducing TBomb'
     else
-        figlet TBomb
+        figlet Phone-Bomber-V2
     fi
     if ! [ -x "$(command -v toilet)" ]; then
         echo -e "\e[4;34m This Bomber Was Created By \e[1;32mDaLoki23 \e[0m"
